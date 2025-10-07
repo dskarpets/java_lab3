@@ -6,15 +6,14 @@ public class Main {
     public static void main(String[] args) {
         Shape[] shapes = {
                 new Rectangle("Red", 4, 5),
-                new Circle("Blue", 3),
-                new Triangle("Green", 4, 6),
-                new Rectangle("Yellow", 2, 8),
-                new Circle("Red", 5),
-                new Triangle("Blue", 7, 3),
                 new Rectangle("Green", 6, 6),
-                new Circle("Yellow", 2.5),
-                new Triangle("Red", 5, 5),
-                new Rectangle("Blue", 3, 9)
+                new Rectangle("Yellow", 2, 8),
+                new Triangle("Purple", 4, 6),
+                new Triangle("Navy", 7, 3),
+                new Triangle("Cyan", 5, 5),
+                new Circle("Pink", 3),
+                new Circle("Beige", 5),
+                new Circle("Orange", 2.5)
         };
 
         ShapeView view = new ShapeView();

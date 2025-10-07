@@ -12,12 +12,12 @@ public class Triangle extends Shape {
 
     @Override
     public double calcArea() {
-        return (base * height) / 2.0;
+        return (base * height) / 2;
     }
 
     @Override
     public void draw() {
-        System.out.println("Drawing Triangle...");
+        System.out.println("Drawing" + this.shapeColor + "Triangle");
     }
 
     @Override

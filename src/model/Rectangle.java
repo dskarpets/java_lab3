@@ -17,7 +17,7 @@ public class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing Rectangle...");
+        System.out.println("Drawing" + this.shapeColor + "Rectangle");
     }
 
     @Override
