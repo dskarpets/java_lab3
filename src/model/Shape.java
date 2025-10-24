@@ -1,7 +1,10 @@
 package model;
 
-public abstract class Shape implements Drawable {
+import java.io.Serializable;
+
+public abstract class Shape implements Drawable, Serializable {
     public String shapeColor;
+    private static final long serialVersionUID = 1L;
 
     public Shape(String shapeColor) {
         this.shapeColor = shapeColor;

@@ -1,10 +1,11 @@
 package controller;
 
 import view.ShapeView;
+
 import java.util.Arrays;
 import java.util.Comparator;
+
 import model.*;
-import view.*;
 
 public class ShapeController {
     private Shape[] shapes;
@@ -14,6 +15,15 @@ public class ShapeController {
         this.shapes = shapes;
         this.view = view;
     }
+
+    public Shape[] getShapes() {
+        return shapes;
+    }
+
+    public void setShapes(Shape[] shapes) {
+        this.shapes = shapes;
+    }
+
 
     public void showAllShapes() {
         view.displayMessage("=== All Shapes ===");
